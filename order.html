@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Ron's Super Johns</h1>
+        <nav>
+            <ul>
+                <a href="index.html"><li>Home</li></a>
+                <a href="breadmixes.html"><li>Bread Mixes</li></a>
+                <a href="fruittoppings.html"><li>Fruit Toppings</li></a>
+                <a href="children.html"><li>Children</li></a>
+                <a href="order.html" id="active"><li>Order</li></a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Order Form</h2>
+        
+        <table>
+            <tr>
+                <th>Item Name</th>
+                <th>SKU</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Steriod Pancake Mix</td>
+                <td>SPM23480</td>
+                <td>$38.99</td>
+            </tr>
+            <tr>
+                <td>Steriod Crêpe Mix</td>
+                <td>SCM23481</td>
+                <td>$38.99</td>
+            </tr>
+            <tr>
+                <td>Steriod Waffle Mix</td>
+                <td>SWM23482</td>
+                <td>$38.99</td>
+            </tr>
+            <tr>
+                <td>Steriod Muffin Mix</td>
+                <td>SMM23483</td>
+                <td>$38.99</td>
+            </tr>
+            <tr>
+                <td>Genetically Modified Strawberries</td>
+                <td>GMS32414</td>
+                <td>$13.99</td>
+            </tr>
+            <tr>
+                <td>Genetically Modified Blueberries</td>
+                <td>GMB32415</td>
+                <td>$13.99</td>
+            </tr>
+            <tr>
+                <td>Genetically Modified Bananas</td>
+                <td>GMB32416</td>
+                <td>$13.99</td>
+            </tr>
+            <tr>
+                <td>Genetically Modified Kiwis</td>
+                <td>GMK32417</td>
+                <td>$13.99</td>
+            </tr>
+            <tr>
+                <td>Compliant Worker</td>
+                <td>CW32417</td>
+                <td>$4999.99</td>
+            </tr>
+            <tr>
+                <td>Adhering Worker</td>
+                <td>AW32418</td>
+                <td>$3749.99</td>
+            </tr>
+            <tr>
+                <td>Attentive Worker</td>
+                <td>AW32419</td>
+                <td>$2799.99</td>
+            </tr>
+            <tr>
+                <td>Conscious Worker</td>
+                <td>CW32420</td>
+                <td>$2099.99</td>
+            </tr>
+        </table>
+
+        <h2>Order Form</h2>
+
+        <form action="">
+
+            <fieldset>
+                <legend>
+                    Personal Info
+                </legend>
+                <div>
+                    <label for="fname">First Name</label>
+                    <input type="text" name="fname">
+        
+                    <label for="lname">Last Name</label>
+                    <input type="text" name="lname">
+        
+                </div>
+                <br>
+                <div>
+                    <label for="birth">Date of Birth:</label>
+                    <input type="date" name="birth">
+                </div>
+                <br>
+                <div>
+                    <label for="email">Email Address:</label>
+                    <input type="email" name="email" id="">
+        
+                    <label for="tele">Phone Number:</label>
+                    <input type="tel" name="tele">
+                </div>
+                <br>
+                <div>
+                    <input type="radio" name="bus">
+                    <label for="bus">Business</label>
+                   
+                    <input type="radio" name="per">
+                    <label for="per">Personal</label>
+                </div>
+                <br>
+                <div>
+                    <label for="add">Street:</label>
+                    <input type="text" name="add">
+    
+                    <label for="apt">Apartment/Suite Number:</label>
+                    <input type="text" name="apt">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Order Info</legend>
+                <div>
+                    <label for="name">Name of Product</label>
+                    <input type="text" name="name" id="">
+    
+                    <label for="sku">SKU:</label>
+                    <input type="text" name="sku" id="">
+    
+                    <label for="amount">Amount:</label>
+                    <input type="number" name="amount">
+                </div>
+                <br>
+                <div>
+                    <button type="button" name="add">Add Another Product</button>
+                </div>
+            </fieldset>
+    
+            <input type="submit">
+    
+        </form>
+    </main>
+    
+    <footer>
+        <div class="footer-flex">
+           
+            <div>
+                <h2>Phone</h2>
+                <h4>+1 123-456-7890</h4>
+            </div>
+        </div>
+
+        <p>
+            <small>
+                &copy; Ronny &bull;
+                <a href="mailto:trytostealmypotofgold@gmail.com">Email us</a>
+            </small>
+        </p>
+    </footer>
+</body>
+</html>
